@@ -7,9 +7,13 @@ const form = ( {} ) => {
 
     <div className="Form-ct">
 
-      <div className="form-name">
+      <div className="firstName">
         <label>Name*</label>
-        <input className="firstName" type="text" name="name"></input><label>First Name</label> <span><input className="lastName" type="text" name="name"></input><label>Last Name</label></span>
+        <input type="text" name="name"></input><label>First Name</label>
+      </div>
+
+      <div className="lastName">
+          <input type="text" name="name"></input><label>Last Name</label>
       </div>
 
       <div className="form">

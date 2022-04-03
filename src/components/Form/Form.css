@@ -2,6 +2,7 @@
 
 .form-ct {
   padding: 20px;
+  display: flex;
 }
 
 .form {
@@ -17,22 +18,24 @@
   padding: 8px;
   width: 100%;
   background-color: rgb(247, 246, 246);
+
 }
 
-.form-name label {
-  display: block;
-}
-
-.form-name input {
-  display: inline-block;
+.firstName input, .lastName input {
   padding: 8px;
-  width: 45%;
+  width: 40%;
   background-color: rgb(247, 246, 246);
 }
 
-.form-name {
-  padding-bottom: 15px;
-  color: gray;
-
+.firstName label, .lastName label {
+  display: block;
 }
 
+.firstName, .lastName {
+  padding-bottom: 15px;
+  color: gray;
+}
+
+.form textarea {
+  height: 100px;
+}

@@ -1,0 +1,13 @@
+
+
+.serviceList ul {
+  padding: 0px;
+  list-style: none;
+  color: gray;
+  font-weight: lighter;
+}
+
+.serviceList li {
+  padding-bottom: 5px;
+}
+
