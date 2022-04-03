@@ -1,0 +1,38 @@
+
+
+.form-ct {
+  padding: 20px;
+}
+
+.form {
+  padding-bottom: 15px;
+  color: gray;
+}
+
+.form label {
+  display: block;
+}
+
+.form input, .form textarea {
+  padding: 8px;
+  width: 100%;
+  background-color: rgb(247, 246, 246);
+}
+
+.form-name label {
+  display: block;
+}
+
+.form-name input {
+  display: inline-block;
+  padding: 8px;
+  width: 45%;
+  background-color: rgb(247, 246, 246);
+}
+
+.form-name {
+  padding-bottom: 15px;
+  color: gray;
+
+}
+
